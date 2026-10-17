@@ -23,3 +23,4 @@ with open("workspace/translation/cutscenes_dump.txt", "w", encoding="utf-8") as 
     out.write("\n".join(output_lines))
 
 print("Dumped to workspace/translation/cutscenes_dump.txt")
+

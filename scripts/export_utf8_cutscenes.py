@@ -10,3 +10,4 @@ with open("workspace/translation/all_ko_cutscenes_utf8.txt", "w", encoding="utf-
     f.write("\n".join(lines) + "\n")
 
 print(f"Wrote {len(lines)} lines to all_ko_cutscenes_utf8.txt")
+

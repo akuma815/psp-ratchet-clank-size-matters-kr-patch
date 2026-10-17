@@ -15,3 +15,4 @@ with open("workspace/translation/missions_dump_utf8.txt", "w", encoding="utf-8")
     out.write("\n".join(lines))
 
 print(f"Dumped {len(missions)} mission records")
+
