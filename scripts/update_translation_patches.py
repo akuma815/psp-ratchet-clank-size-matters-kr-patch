@@ -11,8 +11,8 @@ NEW_PATCHES = [
         "file": "localdat",
         "id": 5005,
         "original": "야, 지금 나 무시하냐?",
-        "patched": "저기, 제 말 무시하시는 겁니까?",
-        "reason": "클랭크 신사적 경어체 복원 (라쳇에게 시비조 반말 -> 정중한 존댓말)",
+        "patched": "으악! 방금 대체 뭐야?!",
+        "reason": "화자 오해 및 오역 교정 (라쳇이 자다 사진 찍혀 놀라는 장면 'うわっ！ なんだよ いまの！？' / 'What'd ya do that for?!' 반영)",
         "category": "tier3_dialogue_voice"
     },
     {
@@ -59,7 +59,7 @@ NEW_PATCHES = [
         "file": "localdat",
         "id": 5080,
         "original": "좋도록 해. 늙어 죽기 전까진 끝내라구!",
-        "patched": "마음대로 해. 늙어 죽기 전엔 끝내라구!",
+        "patched": "좋을 대로 해. 늙어 죽기 전까진 끝내라구!",
         "reason": "'Be my guest' 오역 '좋도록 해' 교정",
         "category": "tier3_dialogue_voice"
     },
@@ -102,6 +102,14 @@ NEW_PATCHES = [
         "patched": "Faux-Family.com? 뭔가 수상하지 않나요?",
         "reason": "클랭크 존댓말 회복",
         "category": "tier3_dialogue_voice"
+    },
+    {
+        "file": "localdat",
+        "id": 5123,
+        "original": "자, 이것도 받아. 스키드 맥마라라는 녀석에게 이겨서 받은 거야. 너무 미끄러워서 나는 못 쓰겠어.",
+        "patched": "자, 이것도 받아. 스키드 맥막스라는 녀석에게 이겨서 받은 거야. 너무 미끄러워서 나는 못 쓰겠어.",
+        "reason": "'스키드 맥마라' -> '스키드 맥막스(Skidd McMarx)' 고유 캐릭터명 오류 교정",
+        "category": "tier3_dialogue_typo"
     },
     {
         "file": "localdat",
@@ -179,8 +187,8 @@ NEW_PATCHES = [
         "file": "localdat",
         "id": 5175,
         "original": "아니에요. 감사합니다.",
-        "patched": "아뇨, 사양하겠습니다.",
-        "reason": "제안 거절 'No thanks' 오역 교정",
+        "patched": "좋습니다, 감사히 받겠습니다.",
+        "reason": "수락 표현 'Don't mind if I do!' (일어: いいっすよ。 いただくっす。)의 거절 반대 오역 교정",
         "category": "tier3_dialogue_voice"
     },
     {
@@ -249,6 +257,22 @@ NEW_PATCHES = [
     },
     {
         "file": "localdat",
+        "id": 5251,
+        "original": "오토가 한 가지를 간과했군.\n네가 없으면 나도 힘을 못 쓴다는 사실을.",
+        "patched": "오토가 한 가지를 간과했군.\n저 가짜들은 등 뒤에 클랭크가 없잖아!",
+        "reason": "게임의 핵심 파트너십 테마 복원 (클론들은 등 뒤에 클랭크가 없다는 라쳇의 명대사 복원)",
+        "category": "tier3_dialogue_voice"
+    },
+    {
+        "file": "localdat",
+        "id": 5252,
+        "original": "사실이지!",
+        "patched": "바로 그겁니다!",
+        "reason": "클랭크의 맞장구 대사 ('Indeed they don't!' / 'その とおりっす！') 복원",
+        "category": "tier3_dialogue_voice"
+    },
+    {
+        "file": "localdat",
         "id": 5265,
         "original": "쿼크의 진짜 부모님은 따로 계셨어. 스크런치 말로는 테크노마이트의 고장난 장비 때문에 돌아가셨대.",
         "patched": "쿼크의 진짜 부모님은 따로 계셨어. 스크런치 말로는 테크노마이트의 고장 난 장비 때문에 돌아가셨대.",
@@ -257,11 +281,35 @@ NEW_PATCHES = [
     },
     {
         "file": "localdat",
+        "id": 5276,
+        "original": "그건 좋은 생각이 아닌 것 같다, 쿼크. 이리 와서 우리랑 얘기를 하면 좀 진정될 거야.",
+        "patched": "그동안 그 결핍된 애정 문제를 우리한테 화풀이한 거였군.",
+        "reason": "원작의 쿼크 심리 문제 디스 복원 (And all this time you took your unresolved childhood issues out on us)",
+        "category": "tier3_dialogue_voice"
+    },
+    {
+        "file": "localdat",
+        "id": 5277,
+        "original": "그래, 쿼크. 다시 한번 생각해 봐. 오토 말이 맞아. 그 기계가 어떤 효과를 가져올지 모르잖아.",
+        "patched": "실은 그저 지능이 모자랐던 것뿐일지도 모르지만요!",
+        "reason": "클랭크의 쿼크 지능 디스 펀치라인 복원 (일어: 실은 그냥 머리가 나빴던 것뿐일지도 모릅니다)",
+        "category": "tier3_dialogue_voice"
+    },
+    {
+        "file": "localdat",
         "id": 5283,
         "original": "잘 됐네. 이제 가도 되겠지? 한시간 이내에 <COL:02>포키타루<COL:01>로 오라는 메시지를 받았거든.",
         "patched": "잘 됐네. 이제 가도 되겠지? 한 시간 이내에 <COL:02>포키타루<COL:01>로 오라는 메시지를 받았거든.",
         "reason": "'한시간' -> '한 시간' 띄어쓰기 교정",
         "category": "tier3_dialogue_typo"
+    },
+    {
+        "file": "localdat",
+        "id": 5293,
+        "original": "덩치는 작아도 자존심은 대단하군.",
+        "patched": "몸집은 작아졌어도 허풍 스케일 하나는 여전히 거대하네, 하하하!",
+        "reason": "엔딩 쿼크의 허풍에 대한 라쳇의 핀잔 유머 복원",
+        "category": "tier3_dialogue_voice"
     },
 
     # ---------------- In-game missions, developer extras, weapons, system strings ----------------

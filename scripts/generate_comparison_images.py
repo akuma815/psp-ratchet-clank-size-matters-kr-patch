@@ -9,7 +9,7 @@ QA_DIR = BASE / "qa"
 
 # Copy verified real captures to img dir
 shutil.copy2(QA_DIR / "real_original_main_menu.png", IMG_DIR / "original_main_menu.png")
-shutil.copy2(QA_DIR / "scratch_menu_patched.png", IMG_DIR / "patched_main_menu.png")
+shutil.copy2(QA_DIR / "scratch_menu_new.png", IMG_DIR / "patched_main_menu.png")
 shutil.copy2(QA_DIR / "real_original_clank_dialogue.png", IMG_DIR / "original_cutscene_clank.png")
 shutil.copy2(QA_DIR / "real_patched_clank_dialogue.png", IMG_DIR / "patched_cutscene_clank.png")
 
@@ -73,7 +73,7 @@ def create_clank_dialogue_comparison():
     draw = ImageDraw.Draw(canvas)
     
     # Title Header
-    title = "라쳇 & 클랭크: 사이즈 매터스 - 오프닝 컷씬 클랭크 대사 교정 비교 (실제 게임 캡처)"
+    title = "라쳇 & 클랭크: 사이즈 매터스 - 오프닝 컷씬 대사 오역 교정 비교 (실제 게임 캡처)"
     draw.text((canvas_w // 2, 22), title, font=FONT_TITLE, fill=(255, 215, 0), anchor="mm")
     
     # Left column (Original)
@@ -90,8 +90,8 @@ def create_clank_dialogue_comparison():
     draw.text((x_right + 90, y_top - 14), "수정 후 (v1.0 한글 패치)", font=FONT_BOLD, fill=(255, 255, 255), anchor="mm")
     
     # Explanations
-    exp_orig = "• 클랭크의 심각한 캐릭터 붕괴: 라쳇에게 시비조 반말 사용 (\"야, 지금 나 무시하냐?\")"
-    exp_patch = "• 원작 신사적 경어체 완벽 복원: 정중한 존댓말 어조 회복 (\"저기, 제 말 무시하시는 겁니까?\")"
+    exp_orig = "• 자다 사진 찍혀 놀란 라쳇의 대사를 엉뚱한 시비조 오역 (\"야, 지금 나 무시하냐?\")"
+    exp_patch = "• 원작 오디오 및 일본판 뉘앙스 전격 반영 (\"으악! 방금 대체 뭐야?!\")"
     draw.text((x_left + 10, y_top + h + 15), exp_orig, font=FONT_SUB, fill=(240, 160, 160))
     draw.text((x_left + 10, y_top + h + 38), exp_patch, font=FONT_SUB, fill=(160, 240, 160))
     

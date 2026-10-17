@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-17T16:33:10+09:00",
+  "generated_at": "2026-10-17T22:54:27+09:00",
   "status": "ok",
   "output_iso": "dist/Ratchet & Clank - Size Matters (Korea) (Updated).iso",
   "size_bytes": 701300736,
-  "sha256": "d2597deb3f3b26a9800dc045d9e655162a85991faee83d5482d5b06ef0767185",
+  "sha256": "34988afd686090a92a36857e231450f3d88dfba8ab99c52fc52dc3c8d0fd7fb6",
   "injections": [
     {
       "file": "PSP_GAME/USRDIR/CODE/HUD/DATA/LOCALDAT_K.BIN",
       "iso_offset": 54362112,
       "lba": 26544,
       "original_size": 120088,
-      "patched_size": 119936,
-      "patched_sha256": "00db31676bfb7bff197a4eb5c8aa01a5d81d0df6f432752948fc4279c9c6cd9c"
+      "patched_size": 119900,
+      "patched_sha256": "aadf632be77901eb4084d30e9fd25bc8dabeb945279508cc5ee52f44d64973ac"
     },
     {
       "file": "PSP_GAME/USRDIR/CODE/HUD/DATA/HELPLOCALDAT_K.BIN",
@@ -24,7 +24,7 @@
   ],
   "xdelta_patch": {
     "path": "dist/Ratchet_Clank_Size_Matters_KR_v1.0.xdelta",
-    "size_bytes": 10419,
-    "sha256": "14e23a7df8aeb936444eccf67eac9b90d6c78e88d338b95f8fac7e02032ee85d"
+    "size_bytes": 10641,
+    "sha256": "eb37e3dec4c5fc8a69c9bdfb8edf1d68d8f5e46885384abdf6cfe4215a6402fd"
   }
 }
