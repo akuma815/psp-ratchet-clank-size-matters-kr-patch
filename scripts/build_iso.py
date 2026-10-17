@@ -102,6 +102,21 @@ def main() -> int:
         ],
     }
 
+    # Automatically generate xdelta3 patch if tool is available
+    xdelta_bin = ROOT.parent.parent / "Tools/xdelta3-3.2.0-windows-x86_64/xdelta3.exe"
+    xdelta_out = ROOT / "dist/Ratchet_Clank_Size_Matters_KR_v1.0.xdelta"
+    if xdelta_bin.exists():
+        import subprocess
+        xdelta_cmd = [str(xdelta_bin), "-e", "-f", "-s", str(src_iso), str(out_iso), str(xdelta_out)]
+        res = subprocess.run(xdelta_cmd, capture_output=True)
+        if res.returncode == 0 and xdelta_out.exists():
+            xdelta_bytes = xdelta_out.read_bytes()
+            report["xdelta_patch"] = {
+                "path": str(xdelta_out.relative_to(ROOT)).replace("\\", "/"),
+                "size_bytes": len(xdelta_bytes),
+                "sha256": hashlib.sha256(xdelta_bytes).hexdigest(),
+            }
+
     report_path = ROOT / "qa/reports/build_iso_report.json"
     report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(report, indent=2, ensure_ascii=False))
@@ -110,3 +125,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+

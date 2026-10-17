@@ -26,3 +26,9 @@ desktop.ini
 .vscode/
 .idea/
 
+# Intermediate translation dumps
+workspace/translation/*.txt
+workspace/translation/*.jsonl
+workspace/translation/scan_issues.json
+
+
