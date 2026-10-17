@@ -2,7 +2,8 @@
 
 PlayStation Portable(PSP)용 액션 어드벤처 게임 **《라쳇 & 클랭크: 사이즈 매터스 (공구들고 바캉스)》** (`UCKS45048` / 한국 정식 발매판 v1.00)의 공식 한국어판 번역 오류 및 결함을 일본판 원본(`UCJS10052`)과 대조하여 완벽하게 교정한 패치 소스 및 빌드 파이프라인 저장소입니다.
 
-![메인 메뉴](img/main_menu.png)
+![메인 메뉴 비교](img/comparison_01_main_menu.png)
+![클랭크 대사 비교](img/comparison_02_clank_dialogue.png)
 
 ---
 
