@@ -1,0 +1,40 @@
+{
+  "ja": {
+    "iso_name": "Ratchet & Clank 5 - Gekitotsu! Dodeka Ginga no MiriMiri Gundan (Japan).iso",
+    "sha256": "b9e6f58ef23949a42a1c1a6016d32a1110d53154b10506b1d79fbcfa512e35e7",
+    "size": 659685376,
+    "param_sfo": {
+      "BOOTABLE": 1,
+      "CATEGORY": "UG",
+      "DISC_ID": "UCJS10052",
+      "DISC_NUMBER": 1,
+      "DISC_TOTAL": 1,
+      "DISC_VERSION": "1.00",
+      "PARENTAL_LEVEL": 1,
+      "PSP_SYSTEM_VER": "3.40",
+      "REGION": 32768,
+      "TITLE": "ラチェット＆クランク　５ "
+    },
+    "file_count": 504,
+    "extracted_count": 35
+  },
+  "ko": {
+    "iso_name": "Ratchet & Clank - Size Matters (Korea).iso",
+    "sha256": "16703571011e7e6aff5c37049964e246f28276f2673e2d45ff6ad22856adb817",
+    "size": 701300736,
+    "param_sfo": {
+      "BOOTABLE": 1,
+      "CATEGORY": "UG",
+      "DISC_ID": "UCKS45048",
+      "DISC_NUMBER": 1,
+      "DISC_TOTAL": 1,
+      "DISC_VERSION": "1.00",
+      "PARENTAL_LEVEL": 3,
+      "PSP_SYSTEM_VER": "3.40",
+      "REGION": 32768,
+      "TITLE": "라쳇 클랭크 : 공구들고 바캉스 "
+    },
+    "file_count": 504,
+    "extracted_count": 35
+  }
+}

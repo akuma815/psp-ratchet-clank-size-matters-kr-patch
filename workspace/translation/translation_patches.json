@@ -1,0 +1,362 @@
+[
+  {
+    "file": "localdat",
+    "id": 308,
+    "original": "<BTN_CIRCLE> Ok",
+    "patched": "<BTN_CIRCLE> 확인",
+    "reason": "Ok -> 확인 번역",
+    "category": "tier2_untranslated"
+  },
+  {
+    "file": "localdat",
+    "id": 312,
+    "original": "<BTN_CROSS> Ok",
+    "patched": "<BTN_CROSS> 확인",
+    "reason": "Ok -> 확인 번역",
+    "category": "tier2_untranslated"
+  },
+  {
+    "file": "localdat",
+    "id": 398,
+    "original": "벼랑에 매달려 있는 상태에서 [analog stick]를 사용하거나 오른쪽, 왼쪽을 눌러서 이동할 수 있습니다. ",
+    "patched": "벼랑에 매달려 있는 상태에서 아날로그 패드를 사용하거나 오른쪽, 왼쪽을 눌러서 이동할 수 있습니다. ",
+    "reason": "미치환 영문 매크로 [analog stick] -> 아날로그 패드 교정",
+    "category": "tier1_critical"
+  },
+  {
+    "file": "localdat",
+    "id": 468,
+    "original": "LOAD GAME",
+    "patched": "게임 불러오기",
+    "reason": "메인 메뉴 영문 방치 LOAD GAME -> 게임 불러오기 번역",
+    "category": "tier2_untranslated"
+  },
+  {
+    "file": "localdat",
+    "id": 469,
+    "original": "NEW GAME",
+    "patched": "새 게임",
+    "reason": "메인 메뉴 영문 방치 NEW GAME -> 새 게임 번역",
+    "category": "tier2_untranslated"
+  },
+  {
+    "file": "localdat",
+    "id": 526,
+    "original": "Start 버튼을 누르세요.",
+    "patched": "START 버튼을 누르세요.",
+    "reason": "소문자 Start -> START 버튼 표기 정규화",
+    "category": "tier2_untranslated"
+  },
+  {
+    "file": "localdat",
+    "id": 549,
+    "original": "<BTN_SQUARE> Ok",
+    "patched": "<BTN_SQUARE> 확인",
+    "reason": "Ok -> 확인 번역",
+    "category": "tier2_untranslated"
+  },
+  {
+    "file": "localdat",
+    "id": 1007,
+    "original": "보상: %s #s .",
+    "patched": "보상: %s %s .",
+    "reason": "잘못된 printf 포맷 스트링 #s -> %s 교정",
+    "category": "tier1_critical"
+  },
+  {
+    "file": "localdat",
+    "id": 1046,
+    "original": "겉모습에 속으면 안돼요. 가끔은 일부러 무시하는 것도 필요하니까!",
+    "patched": "겉모습에 속으면 안 돼요. 가끔은 일부러 무시하는 것도 필요하니까!",
+    "reason": "맞춤법 띄어쓰기 교정 (안돼요 -> 안 돼요)",
+    "category": "tier3_typo"
+  },
+  {
+    "file": "localdat",
+    "id": 652,
+    "original": "로보트 대전 b에서 살아남으세요.",
+    "patched": "로보트 대전에서 살아남으세요.",
+    "reason": "오타 b 삭제",
+    "category": "tier3_typo"
+  },
+  {
+    "file": "localdat",
+    "id": 940,
+    "original": "게임지도:-#s",
+    "patched": "게임지도:-%s",
+    "reason": "잘못된 printf 포맷 스트링 #s -> %s 교정",
+    "category": "tier1_critical"
+  },
+  {
+    "file": "localdat",
+    "id": 1544,
+    "original": "<BTN_CIRCLE> OK",
+    "patched": "<BTN_CIRCLE> 확인",
+    "reason": "OK -> 확인 번역",
+    "category": "tier2_untranslated"
+  },
+  {
+    "file": "localdat",
+    "id": 1564,
+    "original": "[trianglesymbol] 거부",
+    "patched": "<BTN_TRIANGLE> 거부",
+    "reason": "미치환 심볼 매크로 [trianglesymbol] -> <BTN_TRIANGLE> 교정",
+    "category": "tier1_critical"
+  },
+  {
+    "file": "localdat",
+    "id": 4054,
+    "original": "피그미 족 4명을 먹은 베리블라섬을 잡아라.",
+    "patched": "피그미 족 5명을 먹은 베리블라섬을 잡아라.",
+    "reason": "스킬포인트 요구조건 수치 오역 4명 -> 5명 교정",
+    "category": "tier3_skill_point"
+  },
+  {
+    "file": "localdat",
+    "id": 4055,
+    "original": "10개의 부유 카메라를 부숴라.",
+    "patched": "11개의 부유 카메라를 부숴라.",
+    "reason": "스킬포인트 요구조건 수치 오역 10개 -> 11개 교정",
+    "category": "tier3_skill_point"
+  },
+  {
+    "file": "localdat",
+    "id": 4086,
+    "original": "?NDEF",
+    "patched": "문고 등장",
+    "reason": "더미 스트링 ?NDEF -> 문고 등장 번역",
+    "category": "tier2_untranslated"
+  },
+  {
+    "file": "localdat",
+    "id": 5253,
+    "original": "아빠?! 아빠예요?",
+    "patched": "아빠?! 아빠에요?",
+    "reason": "맞춤법 교정 (아빠예요 -> 아빠에요)",
+    "category": "tier3_typo"
+  },
+  {
+    "file": "helplocaldat",
+    "id": -116,
+    "original": "아날로그 패드를 이용하여 스카이 보드 방향을 바꾸세요.  점프 할때는 <BTN_CROSS>을 누르고, 부스트 모드로 바꿀 때는 [squaresymbol]을 계속 누르세요. 비행할 수 없는 곳에서는 계속해서 부스트를 유지해야 합니다.",
+    "patched": "아날로그 패드를 이용하여 스카이 보드 방향을 바꾸세요.  점프 할때는 <BTN_CROSS>을 누르고, 부스트 모드로 바꿀 때는 <BTN_SQUARE>을 계속 누르세요. 비행할 수 없는 곳에서는 계속해서 부스트를 유지해야 합니다.",
+    "reason": "미치환 심볼 매크로 [squaresymbol] -> <BTN_SQUARE> 교정",
+    "category": "tier1_critical"
+  },
+  {
+    "file": "localdat",
+    "id": 287,
+    "original": "<COL:02>폭발<COL:01>시키기",
+    "patched": "<COL:02>폭발시키기<COL:01>",
+    "reason": "강조 태그 내부 동사 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 782,
+    "original": "%d 메가<COL:02>포탑 글러브<COL:01> 탄약 ",
+    "patched": "%d <COL:02>메가 포탑 글러브<COL:01> 탄약 ",
+    "reason": "단어 앞글자 강조 태그 누락 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 783,
+    "original": "%d 메가<COL:02>포탑 글러브<COL:01> 탄약 ",
+    "patched": "%d <COL:02>메가 포탑 글러브<COL:01> 탄약 ",
+    "reason": "단어 앞글자 강조 태그 누락 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 849,
+    "original": "메가<COL:02>포탑 글러브<COL:01> 탄약",
+    "patched": "<COL:02>메가 포탑 글러브<COL:01> 탄약",
+    "reason": "단어 앞글자 강조 태그 누락 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 2093,
+    "original": "파워 셀 재<COL:02>충전<COL:01>",
+    "patched": "파워 셀 <COL:02>재충전<COL:01>",
+    "reason": "접두사 재 강조 태그 누락 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 2101,
+    "original": "횃불 재<COL:02>충전<COL:01>",
+    "patched": "횃불 <COL:02>재충전<COL:01>",
+    "reason": "접두사 재 강조 태그 누락 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 2132,
+    "original": "파편<COL:02>폭발<COL:01> 입수",
+    "patched": "<COL:02>파편 폭발<COL:01> 입수",
+    "reason": "단어 앞글자 강조 태그 누락 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 5082,
+    "original": "그걸 저기 놓으면 여기가 통째로 <COL:02>폭발<COL:01>하는 거 아냐?!",
+    "patched": "그걸 저기 놓으면 여기가 통째로 <COL:02>폭발하는<COL:01> 거 아냐?!",
+    "reason": "강조 태그 내부 동사 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 5161,
+    "original": "<COL:02>폭발<COL:01>하기 일보 직전이야. 당장 탈출해야 돼.",
+    "patched": "<COL:02>폭발하기<COL:01> 일보 직전이야. 당장 탈출해야 돼.",
+    "reason": "강조 태그 내부 동사 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 438,
+    "original": "가끔 땅에서 머무르는 것은 좋지 않은 생각이다. <COL:02>폭발<COL:01>력 있는 지뢰와 보드를 깨는 눈덩이가 있는 곳은 별로 좋지 않다.",
+    "patched": "가끔 땅에서 머무르는 것은 좋지 않은 생각이다. <COL:02>폭발력<COL:01> 있는 지뢰와 보드를 깨는 눈덩이가 있는 곳은 별로 좋지 않다.",
+    "reason": "강조 태그 명사 분리 폭발+력 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 445,
+    "original": "이 경주에 있어서 공기 통풍은 그들의 흐름을 바꿀수 있는 응급 조치와 같았다. 지금은 그들은 경솔한 경주자들을 인정사정없이 흡수해 버린다. 이봐, 하지만 적어도 그들은 <COL:02>폭발<COL:01>하진 않아.",
+    "patched": "이 경주에 있어서 공기 통풍은 그들의 흐름을 바꿀수 있는 응급 조치와 같았다. 지금은 그들은 경솔한 경주자들을 인정사정없이 흡수해 버린다. 이봐, 하지만 적어도 그들은 <COL:02>폭발<COL:01>하진 않아.",
+    "reason": "강조 태그 명사 분리 폭발+력 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 560,
+    "original": "벌지뢰 <COL:02>글러브는 복수의 로봇 벌들을 한 번에 발사하는 폭발<COL:01>력 있는 무기이다. 각각의 로봇 벌들에는 타깃 해석 시스템이 탑재되어 있어 자동으로 적을 추격한다.",
+    "patched": "벌지뢰 <COL:02>글러브는 복수의 로봇 벌들을 한 번에 발사하는 폭발<COL:01>력 있는 무기이다. 각각의 로봇 벌들에는 타깃 해석 시스템이 탑재되어 있어 자동으로 적을 추격한다.",
+    "reason": "강조 태그 명사 분리 폭발+력 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 628,
+    "original": "<COL:02>메가 폭탄 아머는 충격 에너지를 흡수하여 다른 차원에 축적합니다. 어느 방어구 전문 잡지에 의하면, 90% 이상의 대미지를 경감할 수 있다고 합니다. 모인 에너지가 임계량을 초과하면 아머가 빛나기 시작하며, 그때 옴니/렌치 10K로 적을 공격하면 다른 차원으로 보냈던 에너지가 폭발<COL:01>하게 됩니다.",
+    "patched": "<COL:02>메가 폭탄 아머는 충격 에너지를 흡수하여 다른 차원에 축적합니다. 어느 방어구 전문 잡지에 의하면, 90% 이상의 대미지를 경감할 수 있다고 합니다. 모인 에너지가 임계량을 초과하면 아머가 빛나기 시작하며, 그때 옴니/렌치 10K로 적을 공격하면 다른 차원으로 보냈던 에너지가 <COL:02>옴니렌치<COL:01>로 적을 공격하면 다른 차원으로 보냈던 에너지가 폭발하게 됩니다.",
+    "reason": "강조 태그 닫힘 위치 및 무기명 표기 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 635,
+    "original": "<COL:02>메가 폭탄, 수정 아머를 조합한 파편 블래스트 아머 세트는 대미지 집적 기능과, 성장하는 결정을 함께 가지고 있습니다. 차지된 대미지 에너지를 방출할 때 폭발<COL:01>하지 않고 예리한 결정이 여러 방향으로 방출되어 적에게 큰 대미지를 입힙니다.",
+    "patched": "<COL:02>메가 폭탄, 수정 아머를 조합한 파편 블래스트 아머 세트는 대미지 집적 기능과, 성장하는 결정을 함께 가지고 있습니다. 차지된 대미지 에너지를 방출할 때 폭발하지<COL:01> 않고 예리한 결정이 여러 방향으로 방출되어 적에게 큰 대미지를 입힙니다.",
+    "reason": "강조 태그 닫힘 위치 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 896,
+    "original": "발전기가 <COL:02>충전<COL:01>되었습니다!",
+    "patched": "발전기가 <COL:02>충전되었습니다<COL:01>!",
+    "reason": "강조 태그 내부 동사 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 948,
+    "original": "팀 전체의 발전기를 <COL:02>충전<COL:01>하고 탈출선에 먼저 타면 게임에서 이기게 됩니다.",
+    "patched": "팀 전체의 발전기를 <COL:02>충전하고<COL:01> 탈출선에 먼저 타면 게임에서 이기게 됩니다.",
+    "reason": "강조 태그 내부 동사 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 955,
+    "original": "발전기를 획득하여 <COL:02>메가 캐논을 충전<COL:01>하십시오",
+    "patched": "발전기를 획득하여 <COL:02>메가 캐논<COL:01>을 충전하십시오",
+    "reason": "강조 태그 조사 및 서술어 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 957,
+    "original": "<COL:02>메가 캐논이 다 충전<COL:01>되면 적군의 캐논을 부술수 있습니다. ",
+    "patched": "<COL:02>메가 캐논<COL:01>이 다 충전되면 적군의 캐논을 부술수 있습니다. ",
+    "reason": "강조 태그 조사 및 서술어 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 572,
+    "original": "<COL:02>소만들어버레이터는 생물의 유전자를 순식간에 바꾸는 힘을 지니고 있습니다. 대체시키는 것은 96.8%가 소의 유전자이며 나머지는 TNT, 스마트 봄, 그리네이드 등의 폭발<COL:01>물로 바뀌게 됩니다.",
+    "patched": "<COL:02>소만들어버레이터는 생물의 유전자를 순식간에 바꾸는 힘을 지니고 있습니다. 대체시키는 것은 96.8%가 소의 유전자이며 나머지는 TNT, 스마트 봄, 그리네이드 등의 폭발물<COL:01>로 바뀌게 됩니다.",
+    "reason": "강조 태그 명사 분리 폭발+물 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "localdat",
+    "id": 584,
+    "original": "<COL:02>헬리 팩은 클랭크를 업그레이드시키는 파츠입니다. 하이 점프, 롱 점프, 활강 등의 능력을 지니고 있습니다. 제트 팩과 헬리 팩<COL:01> 중 취향에 맞는 것을 선택하십시오.",
+    "patched": "<COL:02>헬리 팩은 클랭크를 업그레이드시키는 파츠입니다. 하이 점프, 롱 점프, 활강 등의 능력을 지니고 있습니다. <COL:02>제트 팩<COL:01>과 <COL:02>헬리 팩<COL:01> 중 취향에 맞는 것을 선택하십시오.",
+    "reason": "태그 누락 아이템 강조 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "helplocaldat",
+    "id": -46,
+    "original": "클랭크의 심장을 고치기 위해 <COL:02>폴라라이저<COL:01>를 이용하여 심장의 조각들을 집으세요.",
+    "patched": "클랭크의 심장을 고치기 위해 <COL:02>폴라라이저<COL:01>를 이용하여 심장의 조각들을 집으세요.",
+    "reason": "강조 태그 내부 동사 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "helplocaldat",
+    "id": -65,
+    "original": "<COL:02>폴라라이저<COL:01>가 작동하면 자성의 극이 바뀝니다! 빨간 목표물에 시도해 보세요.",
+    "patched": "<COL:02>폴라라이저<COL:01>가 작동하면 자성의 극이 바뀝니다! 빨간 목표물에 시도해 보세요.",
+    "reason": "강조 태그 내부 동사 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "helplocaldat",
+    "id": -94,
+    "original": "지시광선의 지시에 따라 반응기에 파워셀을 <COL:02>충전<COL:01>하세요.",
+    "patched": "지시광선의 지시에 따라 반응기에 파워셀을 <COL:02>충전<COL:01>하세요.",
+    "reason": "강조 태그 내부 동사 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "helplocaldat",
+    "id": -95,
+    "original": "나사를 돌려 파워셀을 <COL:02>충전<COL:01>하세요.",
+    "patched": "나사를 돌려 파워셀을 <COL:02>충전<COL:01>하세요.",
+    "reason": "강조 태그 내부 동사 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "helplocaldat",
+    "id": -126,
+    "original": "<COL:02>메가 폭탄 아머 풀 세트를 얻었습니다! 대미지를 입을 때마다 아머에 폭발력이 충전<COL:01>됩니다. 아머가 붉게 빛날 때 렌치로 적을 공격하면 엄청난 위력의 공격을 할 수 있습니다.",
+    "patched": "<COL:02>메가 폭탄 아머 풀 세트를 얻었습니다! 대미지를 입을 때마다 아머에 폭발력이 충전<COL:01>됩니다. 아머가 붉게 빛날 때 렌치로 적을 공격하면 엄청난 위력의 공격을 할 수 있습니다.",
+    "reason": "강조 태그 내부 동사 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "helplocaldat",
+    "id": -129,
+    "original": "불 폭탄 세트을 얻었습니다! 렌치로 3회 연속 공격을 성공하면 파이어볼이 <COL:02>폭발<COL:01>합니다.",
+    "patched": "불 폭탄 세트을 얻었습니다! 렌치로 3회 연속 공격을 성공하면 파이어볼이 <COL:02>폭발합니다<COL:01>.",
+    "reason": "강조 태그 내부 동사 분리 교정",
+    "category": "tier2_highlight"
+  },
+  {
+    "file": "helplocaldat",
+    "id": -157,
+    "original": "<COL:02>폴라라이저<COL:01>를 이용하여 톱니를 모으세요",
+    "patched": "<COL:02>폴라라이저<COL:01>를 이용하여 톱니를 모으세요",
+    "reason": "강조 태그 명사 분리 폭발+력 교정",
+    "category": "tier2_highlight"
+  }
+]

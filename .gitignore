@@ -1,0 +1,28 @@
+# ISO / Large Disc Images
+*.iso
+*.cso
+*.bin
+*.img
+
+# Build outputs & extracted dumps
+extracted/
+build/
+dist/
+dist/*.iso
+dist/*.xdelta
+
+# Python cache & virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# System / Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+

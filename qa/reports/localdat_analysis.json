@@ -1,0 +1,1036 @@
+{
+  "generated_at": "2026-10-17T15:57:36+09:00",
+  "status": "ok",
+  "verification": {
+    "localdat_ja": {
+      "path": "extracted/disc_ja/PSP_GAME/USRDIR/CODE/HUD/DATA/LOCALDAT_J.BIN",
+      "size_bytes": 133936,
+      "sha256": "362f875e8e07bfedb627acc5c00eae5c0e5e4679b9e3ce87b494d45860a18b4b",
+      "rebuilt_sha256": "362f875e8e07bfedb627acc5c00eae5c0e5e4679b9e3ce87b494d45860a18b4b",
+      "byte_identical_roundtrip": true,
+      "version_flags_hex": "0x12060101",
+      "entry_count": 2087,
+      "entry_payload_roundtrip_passed": 2087,
+      "utf8_savedata_entry_count": 21,
+      "hud_string_entry_count": 2066,
+      "ltoc": {
+        "a": 68,
+        "b": 133784,
+        "c": 130636
+      },
+      "timing_header": {
+        "n1": 12,
+        "n2": 42,
+        "n3": 365,
+        "byte_length": 3148
+      },
+      "post_ltoc_tail_length": 84
+    },
+    "localdat_ko": {
+      "path": "extracted/disc_ko/PSP_GAME/USRDIR/CODE/HUD/DATA/LOCALDAT_K.BIN",
+      "size_bytes": 120088,
+      "sha256": "0eabfe978c9490dd1bcb91bb00bf6794cc885046fe9b199758a879244aad714e",
+      "rebuilt_sha256": "0eabfe978c9490dd1bcb91bb00bf6794cc885046fe9b199758a879244aad714e",
+      "byte_identical_roundtrip": true,
+      "version_flags_hex": "0x12060101",
+      "entry_count": 2016,
+      "entry_payload_roundtrip_passed": 2016,
+      "utf8_savedata_entry_count": 21,
+      "hud_string_entry_count": 1995,
+      "ltoc": {
+        "a": 68,
+        "b": 111740,
+        "c": 109160
+      },
+      "timing_header": {
+        "n1": 12,
+        "n2": 42,
+        "n3": 294,
+        "byte_length": 2580
+      },
+      "post_ltoc_tail_length": 8280
+    },
+    "helplocaldat_ja": {
+      "path": "extracted/disc_ja/PSP_GAME/USRDIR/CODE/HUD/DATA/HELPLOCALDAT_J.BIN",
+      "size_bytes": 18148,
+      "sha256": "68e31adcfcef7ed66c118853a9fa552cc61560b6294e9a669570e06958a03c9f",
+      "rebuilt_sha256": "68e31adcfcef7ed66c118853a9fa552cc61560b6294e9a669570e06958a03c9f",
+      "byte_identical_roundtrip": true,
+      "version_flags_hex": "0x12060105",
+      "entry_count": 159,
+      "entry_payload_roundtrip_passed": 159,
+      "utf8_savedata_entry_count": 0,
+      "hud_string_entry_count": 159,
+      "ltoc": {
+        "a": 68,
+        "b": 17548,
+        "c": 17528
+      },
+      "timing_header": {
+        "n1": 1,
+        "n2": 1,
+        "n3": 0,
+        "byte_length": 20
+      },
+      "post_ltoc_tail_length": 532
+    },
+    "helplocaldat_ko": {
+      "path": "extracted/disc_ko/PSP_GAME/USRDIR/CODE/HUD/DATA/HELPLOCALDAT_K.BIN",
+      "size_bytes": 13408,
+      "sha256": "467075655ef1b912d8618b30b8cabbb2e178d5043ff4fea466260e8237cbf36f",
+      "rebuilt_sha256": "467075655ef1b912d8618b30b8cabbb2e178d5043ff4fea466260e8237cbf36f",
+      "byte_identical_roundtrip": true,
+      "version_flags_hex": "0x12060105",
+      "entry_count": 159,
+      "entry_payload_roundtrip_passed": 159,
+      "utf8_savedata_entry_count": 0,
+      "hud_string_entry_count": 159,
+      "ltoc": {
+        "a": 68,
+        "b": 13312,
+        "c": 13292
+      },
+      "timing_header": {
+        "n1": 1,
+        "n2": 1,
+        "n3": 0,
+        "byte_length": 20
+      },
+      "post_ltoc_tail_length": 28
+    }
+  },
+  "alignment": {
+    "localdat": {
+      "total_ko_entries": 2016,
+      "total_ja_entries": 2087,
+      "paired_count": 2016,
+      "ko_only_count": 0,
+      "ja_only_count": 0,
+      "printf_mismatch_count": 5,
+      "button_token_diff_count": 50,
+      "untranslated_or_placeholder_count": 37,
+      "english_remnant_candidates": [
+        {
+          "ko_id": 193,
+          "ja_id": 193,
+          "ja_text": "<COL:02>わくせいメタリス: スクラップヤード LXIV<COL:01>",
+          "ko_text": "<COL:02>스크랩야드 LXIV, 메탈리스 <COL:01>"
+        },
+        {
+          "ko_id": 175,
+          "ja_id": 175,
+          "ja_text": "<COL:02>スクラップヤード LXIV<COL:01>",
+          "ko_text": "<COL:02>스크랩야드 LXIV<COL:01>"
+        },
+        {
+          "ko_id": 398,
+          "ja_id": 398,
+          "ja_text": "ガケの へりを つかんで いる トキには、 アナログパッドか ほうこうキーで さゆうに うごく コトが できます。 ",
+          "ko_text": "벼랑에 매달려 있는 상태에서 [analog stick]를 사용하거나 오른쪽, 왼쪽을 눌러서 이동할 수 있습니다. "
+        },
+        {
+          "ko_id": 468,
+          "ja_id": 468,
+          "ja_text": "ゲームのロード",
+          "ko_text": "LOAD GAME"
+        },
+        {
+          "ko_id": 469,
+          "ja_id": 469,
+          "ja_text": "あたらしくはじめる",
+          "ko_text": "NEW GAME"
+        },
+        {
+          "ko_id": 524,
+          "ja_id": 524,
+          "ja_text": "なんと、 ハードコア モードで ゲームを クリア しました！ すばらしい！ クリアがめんを しゃしんに とって おけば、 いっしょうの きねんに なりますよ！",
+          "ko_text": "와우! 하드코어 모드를 클리어했습니다! 당신이 성공한 화면 사진을 우리들에게 보여주세요. 그리고 그사진들을 당신 이름과 주소와 함께 아래의 주소로 보내주세요: High Impact Games, 4146 Lankershim Blvd., 2nd Floor, North Hollywood, CA 91602 "
+        },
+        {
+          "ko_id": 526,
+          "ja_id": 526,
+          "ja_text": "STARTボタンで ゲームスタート",
+          "ko_text": "Start 버튼을 누르세요."
+        },
+        {
+          "ko_id": 557,
+          "ja_id": 557,
+          "ja_text": "<COL:02>ブリッツキャノンは、 ブリッツガン<COL:01>の アップグレード バージョン です。",
+          "ko_text": "블릿츠 캐논은 <COL:02>블릿츠건<COL:01>의 업그레이드 버전으로, 전장에 수많은 유산탄을 발사한다.  행성 Xyxx VII에서는 이동 포병 무기로 분류된다. "
+        },
+        {
+          "ko_id": 630,
+          "ja_id": 630,
+          "ja_text": "<COL:02>カメレオーン<COL:01> アーマーは、 ガラクトロン ちゅうおう じょうほうきょく <RAW:08>GCIA<RAW:09> の せいしき そうび ですが、 こうしきには はっぴょう されて いません。 ぼうぎょ のうりょくが たかい だけでなく、 れっか トリウムの コアに、 ねつこうがくてき アクティブ カモフラージュを ほどこして いるため、 しきべつ されるまでに じかんが かかります。 つまり、 うごいている さいちゅうは、 てきに はっけん されにくく なるのです。",
+          "ko_text": "<COL:02>카멜레온<COL:01> 아머는 가제트론 중앙 정보국(GCIA)의 정식 장비이지만, 공식적으로 발표되진 않았습니다. 방어능력이 높을 뿐 아니라, 열화 토륨 코어에 열공학적 액티브 카무플라주를 장비하고 있기 때문에, 식별되기까지 시간이 걸립니다. 즉, 작동하는 동안에는 적에게 쉽게 발견되지 않습니다."
+        },
+        {
+          "ko_id": 1564,
+          "ja_id": 1564,
+          "ja_text": "<BTN_TRIANGLE> きょひする",
+          "ko_text": "[trianglesymbol] 거부"
+        },
+        {
+          "ko_id": 1604,
+          "ja_id": 1604,
+          "ja_text": "ネットワークの せってい エラー (Shutdown MGCL)",
+          "ko_text": "네트워크 에러가 발생하였습니다. MGCL 닫는데 실패하였습니다. "
+        },
+        {
+          "ko_id": 1656,
+          "ja_id": 1656,
+          "ja_text": "EULA",
+          "ko_text": "EULA"
+        },
+        {
+          "ko_id": 1743,
+          "ja_id": 1743,
+          "ja_text": "ラチェット & クランク 5 マルチたいせんに せつぞくする ためには、 まず 「ワイヤレスLAN しょうでんりょく モード」 を きって ください。 ワイヤレスLAN しょうでんりょく モードは、 ほんたいの ホームメニューに はいり、 「せってい」 > 「しょうでんりょく せってい」 で かくにん できます。",
+          "ko_text": "라쳇 & 클랭크: 공구들고 바캉스<SYM_TM> 온라인에 접속중입니다. 만약 접속 문제가 있다면, 무선랜 절전 모드가 꺼져 있는지 확인해 주세요. 무선랜 절전(WLAN Power Save) 모드는 설정란의 절전 모드 설정(Power Save Settings)에 PSP<SYM_TM> 홈 메뉴에 위치하고 있습니다. "
+        },
+        {
+          "ko_id": 5004,
+          "ja_id": 5004,
+          "ja_text": "<RAW:AD>ふゎ〜あ、 ヒーローは いませーん<RAW:AD>",
+          "ko_text": "Zzzzz<ELLIPSIS>"
+        },
+        {
+          "ko_id": 5095,
+          "ja_id": 5095,
+          "ja_text": "<RAW:AD>ダメだ、 あかない！",
+          "ko_text": "해냈어! 내 진짜 가족을 찾았다구! 컴퓨터로 검색을 하다가 Faux-Family.com이라는 곳에서 내 족보를 받았어."
+        },
+        {
+          "ko_id": 5098,
+          "ja_id": 5098,
+          "ja_text": "いいけど〜。 おそいと ねちゃう かも〜。",
+          "ko_text": "Faux-Family.com? 뭔가 수상하지 않아?"
+        },
+        {
+          "ko_id": 1824,
+          "ja_id": 1824,
+          "ja_text": "わくせいメタリス: スクラップヤード LXIV ",
+          "ko_text": "스크랩야드 LXIV, 메탈리스"
+        }
+      ],
+      "button_token_diffs": [
+        {
+          "ko_id": 214,
+          "ja_id": 214,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE>",
+          "ko_text": "<BTN_CROSS>"
+        },
+        {
+          "ko_id": 215,
+          "ja_id": 215,
+          "ja_btns": [
+            "<BTN_SQUARE>",
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_SQUARE>",
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_SQUARE> / <BTN_CROSS> で ズームイン / アウト",
+          "ko_text": " <BTN_SQUARE>과 <BTN_CIRCLE>을 사용하여 확대 및 축소."
+        },
+        {
+          "ko_id": 228,
+          "ja_id": 228,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> そうび",
+          "ko_text": "<BTN_CROSS> 장착"
+        },
+        {
+          "ko_id": 229,
+          "ja_id": 229,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> クイックチェンジ",
+          "ko_text": "<BTN_CIRCLE> 퀵 체인지"
+        },
+        {
+          "ko_id": 233,
+          "ja_id": 233,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> かう",
+          "ko_text": "<BTN_CROSS> 구입"
+        },
+        {
+          "ko_id": 280,
+          "ja_id": 280,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> えらぶ",
+          "ko_text": "<BTN_CROSS> 선택"
+        },
+        {
+          "ko_id": 281,
+          "ja_id": 281,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>"
+          ],
+          "ja_text": "カーソルかいてん: Lボタン / Rボタン",
+          "ko_text": "<BTN_L> 반시계방향, <BTN_R> 시계방향"
+        },
+        {
+          "ko_id": 308,
+          "ja_id": 308,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> オッケー",
+          "ko_text": "<BTN_CIRCLE> Ok"
+        },
+        {
+          "ko_id": 309,
+          "ja_id": 309,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> はい",
+          "ko_text": "<BTN_CIRCLE> 예"
+        },
+        {
+          "ko_id": 312,
+          "ja_id": 312,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> オッケー",
+          "ko_text": "<BTN_CROSS> Ok"
+        },
+        {
+          "ko_id": 313,
+          "ja_id": 313,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> きりかえ",
+          "ko_text": "<BTN_CROSS> 바꾸기"
+        },
+        {
+          "ko_id": 321,
+          "ja_id": 321,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> えらぶ ",
+          "ko_text": "<BTN_CROSS> 선택"
+        },
+        {
+          "ko_id": 322,
+          "ja_id": 322,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> そうびを きりかえる",
+          "ko_text": "<BTN_CROSS> 장치 바꾸기"
+        },
+        {
+          "ko_id": 334,
+          "ja_id": 334,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> だんやくを かう",
+          "ko_text": "<BTN_CROSS> 탄약 구입"
+        },
+        {
+          "ko_id": 335,
+          "ja_id": 335,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> だんやく まんタン",
+          "ko_text": "<BTN_CROSS> 최대 탄약 구입"
+        },
+        {
+          "ko_id": 336,
+          "ja_id": 336,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> ガラメカを かう",
+          "ko_text": "<BTN_CROSS> 가젯 구입"
+        },
+        {
+          "ko_id": 343,
+          "ja_id": 343,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> ふっかつ",
+          "ko_text": "<BTN_CROSS>으로 리스폰합니다."
+        },
+        {
+          "ko_id": 364,
+          "ja_id": 364,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> ミッションがめん",
+          "ko_text": "<BTN_CROSS> 미션 화면"
+        },
+        {
+          "ko_id": 384,
+          "ja_id": 384,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> メニューに もどる",
+          "ko_text": "<BTN_CROSS> 메뉴로 돌아갑니다."
+        },
+        {
+          "ko_id": 396,
+          "ja_id": 396,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>"
+          ],
+          "ja_text": "Lボタンと Rボタン を おしつづければ、 しゃがむ コトが できます。 しゃがんだまま アナログパッドを うごかせば、 そのばで むきを かえられます。 この テクニックを つかえば、 うごかずに まわりを こうげき するコトが できます。",
+          "ko_text": "<BTN_L>과 <BTN_R>을 동시에 눌러서 앉은 상태에서 아날로그 패드 를 사용해서 움직입니다. 이 기술을 사용하면 앉아서 이동하면서 공격을 할 수 있습니다."
+        },
+        {
+          "ko_id": 401,
+          "ja_id": 401,
+          "ja_btns": [
+            "<BTN_SQUARE>"
+          ],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>",
+            "<BTN_SQUARE>"
+          ],
+          "ja_text": "コメットブーメランは、 <COL:02>オムレンチに ないぞう された べんりな きのう です。 Lボタンと Rボタン を どうじに おして しゃがみながら、 <BTN_SQUARE>ボタンで オムレンチ<COL:01>を なげられます。 こうげきの ため だけでなく、 とおくの ボルトを あつめる ためにも つかえます。",
+          "ko_text": "혜성 폭격은 옴니/렌치 10K의 더 유용한 특성중 하나입니다. <BTN_L>과  <BTN_R>을 함께 눌러 웅크린다음 <BTN_SQUARE>버튼을 누르세요.당신은 또한 이 동작으로 먼거리에 있는 나사도 집을수 있습니다. "
+        },
+        {
+          "ko_id": 402,
+          "ja_id": 402,
+          "ja_btns": [
+            "<BTN_CROSS>",
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>",
+            "<BTN_CROSS>",
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "ガラクトロンせい <COL:02>ヘリパックか ジェットパック<COL:01>を つかえば、 ホバリングライドで くうちゅうを すべるように いどう するコトが できます！ <BTN_CROSS>ボタンで ジャンプしたら、 もういちど すぐに <BTN_CROSS>ボタンを おしつづけます。",
+          "ko_text": "가제트론 <COL:02>헬리 팩<COL:01>과 트러스터 팩 업그레이드는 활강 기능을 사용할 수 있게 해줍니다. <BTN_CROSS>을 눌러서 점프한 후에 다시 <BTN_CROSS>을 눌러서 활강하거나 혹은 간단히 아무 점프나 한 후에 <BTN_CROSS>을 누르고 있으세요."
+        },
+        {
+          "ko_id": 403,
+          "ja_id": 403,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>",
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "はしりながら Lボタンと Rボタン を どうじに おして しゃがみ、 すぐに <BTN_CROSS>ボタンで ジャンプ すれば、 ロングジャンプで とおくへ とぶコトが できます。 とおく はなれた ばしょを とびこえるには、 はしっこ ぎりぎりから ロングジャンプ してみましょう。",
+          "ko_text": "긴 점프를 하기 위해서, 달리기 시작하면 <BTN_L>과  <BTN_R>을 함께 눌러서 웅크린 다음에, <BTN_CROSS>을 바로 누르세요.두지점 사이를 점프를 할 때 최대 거리를 뛰기 위해서는 간격 끝에서 부터 점프를 해야 합니다. "
+        },
+        {
+          "ko_id": 404,
+          "ja_id": 404,
+          "ja_btns": [
+            "<BTN_CROSS>",
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>",
+            "<BTN_CROSS>",
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "ハイジャンプは、 <COL:02>ヘリパック<COL:01>の やくだつ きのう です。 Lボタンと Rボタン を どうじに おして しゃがんだまま、 <BTN_CROSS>ボタンで たかく ジャンプ するコトが できます。 その すぐあとに もういちど <BTN_CROSS>ボタンを おしつづけて、 ホバリングライド するのも やくだつ テクニック です。",
+          "ko_text": "<COL:02>헬리 팩<COL:01>과 트러스터 팩 업그레이드에 포함된 높은 점프는 유용한 특징이 있습니다. <BTN_L>과 <BTN_R>을 함께 눌러서 웅크리고, <BTN_CROSS>을 눌러서 점프하세요. 점프한 다음에 <BTN_CROSS>을 계속 눌러서 높은 점프에서 활강할 수 있습니다. "
+        },
+        {
+          "ko_id": 480,
+          "ja_id": 480,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> アーマーセットを そうび",
+          "ko_text": "<BTN_CROSS> 아머를 장비하세요."
+        },
+        {
+          "ko_id": 531,
+          "ja_id": 531,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_TRIANGLE>"
+          ],
+          "ja_text": "_[tianglesymbol] ツリーハウスへ のぼる",
+          "ko_text": "<BTN_TRIANGLE> 트리하우스로 오르기"
+        },
+        {
+          "ko_id": 536,
+          "ja_id": 536,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> ムービーを みる",
+          "ko_text": "<BTN_CROSS> 시네마틱 보기"
+        },
+        {
+          "ko_id": 588,
+          "ja_id": 588,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<COL:02>グラインドブーツ<COL:01>は、 グラインドレールを すべる ための クツです。 レールを みつけたら、 そこに むかって ジャンプ して みましょう。 となりの レールに うつるには、 アナログパッドを さゆうに かたむけ ながら、 ジャンプ します。",
+          "ko_text": "라쳇의 <COL:02>그라인드 부츠<COL:01>는 레일 위를 달리기 위한 구두입니다. 레일 근처에서 점프하면 레일에 올라타 이동하게 됩니다. 레일이 나뉠 때는<BTN_CROSS>으로 점프하여 장애물을 피하거나 아날로그 패드 을 이용하여 다른 레일로 이동할 수도 있습니다."
+        },
+        {
+          "ko_id": 1542,
+          "ja_id": 1542,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> スタート",
+          "ko_text": "<BTN_CROSS> 시작"
+        },
+        {
+          "ko_id": 1545,
+          "ja_id": 1545,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> チェンジ",
+          "ko_text": "<BTN_CROSS> 변경"
+        },
+        {
+          "ko_id": 1551,
+          "ja_id": 1551,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> けす",
+          "ko_text": "<BTN_CROSS> 삭제"
+        },
+        {
+          "ko_id": 1552,
+          "ja_id": 1552,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> つくる",
+          "ko_text": "<BTN_CIRCLE> 생성"
+        },
+        {
+          "ko_id": 1553,
+          "ja_id": 1553,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> セーブ",
+          "ko_text": "<BTN_CIRCLE> 저장"
+        },
+        {
+          "ko_id": 1554,
+          "ja_id": 1554,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> もういちどさがす",
+          "ko_text": "<BTN_CIRCLE> 새로고침"
+        },
+        {
+          "ko_id": 1555,
+          "ja_id": 1555,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> さんかする",
+          "ko_text": "<BTN_CROSS> 참가"
+        },
+        {
+          "ko_id": 1558,
+          "ja_id": 1558,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> チームきりかえ",
+          "ko_text": "<BTN_CIRCLE> 팀"
+        },
+        {
+          "ko_id": 1559,
+          "ja_id": 1559,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> じゅんび OK",
+          "ko_text": "<BTN_CROSS> 준비"
+        },
+        {
+          "ko_id": 1560,
+          "ja_id": 1560,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> じゅんび NG",
+          "ko_text": "<BTN_CROSS> 준비안됨"
+        },
+        {
+          "ko_id": 1564,
+          "ja_id": 1564,
+          "ja_btns": [
+            "<BTN_TRIANGLE>"
+          ],
+          "ko_btns": [],
+          "ja_text": "<BTN_TRIANGLE> きょひする",
+          "ko_text": "[trianglesymbol] 거부"
+        },
+        {
+          "ko_id": 1757,
+          "ja_id": 1757,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> メッセージ",
+          "ko_text": "<BTN_CROSS> 채팅"
+        },
+        {
+          "ko_id": 1769,
+          "ja_id": 1769,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_L>"
+          ],
+          "ja_text": "Lボタン: うえスクロール",
+          "ko_text": "<BTN_L> 스크롤 업"
+        },
+        {
+          "ko_id": 1770,
+          "ja_id": 1770,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_R>"
+          ],
+          "ja_text": "Rボタン: したスクロール",
+          "ko_text": "<BTN_R> 스크롤 다운"
+        },
+        {
+          "ko_id": 1771,
+          "ja_id": 1771,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_L>"
+          ],
+          "ja_text": "Lボタン: ページうえへ",
+          "ko_text": "<BTN_L> 다음 페이지"
+        },
+        {
+          "ko_id": 1772,
+          "ja_id": 1772,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_R>"
+          ],
+          "ja_text": "Rボタン: ページしたへ",
+          "ko_text": "<BTN_R> 이전 페이지"
+        },
+        {
+          "ko_id": 3018,
+          "ja_id": 3018,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>"
+          ],
+          "ja_text": "Lボタンと Rボタン を どうじに おせば、 ラチェットは しゃがみます。 しゃがみながら アナログパッドを うごかせば、 そのばで むきを かえます。 ばしょを いどう しないで、 まわりを こうげき するトキに べんりです。",
+          "ko_text": "<BTN_L>과 <BTN_R>을 동시에 눌러서 앉은 상태에서 아날로그 패드 를 사용해서 움직입니다. 이 기술을 사용하면 앉아서 이동하면서 공격을 할 수 있습니다."
+        },
+        {
+          "ko_id": 3019,
+          "ja_id": 3019,
+          "ja_btns": [
+            "<BTN_CROSS>",
+            "<BTN_TRIANGLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>",
+            "<BTN_SQUARE>"
+          ],
+          "ja_text": "ラチェットは、 ガケっぷちや ハシゴなどに むかって ジャンプすれば、 じどうてきに それらを つかみます。 けんすいで うえに むかうには <BTN_CROSS>ボタンを おし、 てを はなすには <BTN_TRIANGLE>ボタンを おします。",
+          "ko_text": "라쳇이 벼랑으로 점프를 하면 자동으로 벼랑 끝을 붙잡습니다.  위로 올라가려면 <BTN_CROSS>, 아래로 떨어지려면  <BTN_SQUARE>을 누르세요. "
+        },
+        {
+          "ko_id": 3023,
+          "ja_id": 3023,
+          "ja_btns": [
+            "<BTN_SQUARE>"
+          ],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>",
+            "<BTN_SQUARE>"
+          ],
+          "ja_text": "<COL:02>オムレンチ<COL:01>の コメットブーメラン きのうは、 いろいろと やくだちます。 Lボタンと Rボタン を どうじに おして、 しゃがみ ながら <BTN_SQUARE>ボタンを おせば、 くるくると とんでゆきます。 てきを こうげき する だけでなく、 とおくの ボルト などを ひろうコトにも つかえます。",
+          "ko_text": "혜성 폭격은 옴니/렌치 10K의 더 유용한 특성중 하나입니다. <BTN_L> 버튼과  <BTN_R> 버튼을 함께 눌러서 웅크린 후 <BTN_SQUARE>을 누르세요. 먼거리에 있는 나사도 집을 수 있습니다. "
+        },
+        {
+          "ko_id": 3024,
+          "ja_id": 3024,
+          "ja_btns": [
+            "<BTN_CROSS>",
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>",
+            "<BTN_CROSS>",
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "ガラクトロンの ブースト ガラメカ 「<COL:02>ヘリパック<COL:01>」 には、 ホバリングライド きのうが もれなく ついています！ジャンプ したあと、 <BTN_CROSS>ボタンを おしつづけるか、 もういちど <BTN_CROSS>ボタンを おすか すれば、 くうちゅうを ゆっくり かこう します。",
+          "ko_text": "가제트론 <COL:02>헬리 팩<COL:01>과 트러스터 팩 업그레이드는 활강 기능을 사용할 수 있게 해줍니다. <BTN_CROSS>을 눌러서 점프한 후에 다시 <BTN_CROSS>을 눌러서 활강하거나 혹은 간단히 아무 점프나 한 후에 <BTN_CROSS>을 누르고 있으세요. "
+        },
+        {
+          "ko_id": 3025,
+          "ja_id": 3025,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>",
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "ロングジャンプを するには、 はしりながら Lボタン + Rボタンと <BTN_CROSS>ボタンを どうじに おしましょう。 ギリギリで ふみきって ロングジャンプを すれば、 とおい ばしょへ とびうつる コトが できます。",
+          "ko_text": "긴 점프를 하기 위해서, 달리기 시작하면 <BTN_L>과  <BTN_R>을 함께 눌러서 웅크린 다음에, <BTN_CROSS>을 바로 누르세요.두지점 사이를 점프를 할 때 최대 거리를 뛰기 위해서는 끝에서 부터 점프를 해야 합니다.  "
+        },
+        {
+          "ko_id": 3026,
+          "ja_id": 3026,
+          "ja_btns": [
+            "<BTN_CROSS>",
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>",
+            "<BTN_CROSS>",
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "ハイジャンプは、 ガラクトロンの ブースト ガラメカ 「<COL:02>ヘリパック<COL:01>」 の、 べんりな きのうの ひとつです。 Lボタンと Rボタン を おして しゃがみながら、 <BTN_CROSS>ボタンで ジャンプ すれば、 たかく とびあがれます。 そこで <BTN_CROSS>ボタンを おしつづけて ホバリングライドに うつる コトも できます。",
+          "ko_text": "<COL:02>헬리 팩<COL:01>과 트러스터 팩 업그레이드에 포함된 높은 점프는 유용한 특징이 있습니다. <BTN_L>과 <BTN_R>을 함께 눌러서 웅크리고, <BTN_CROSS>을 눌러서 점프하세요. 점프한 다음에 <BTN_CROSS>을 계속 눌러서 높은 점프에서 활강할 수 있습니다.  "
+        }
+      ],
+      "printf_mismatches": [
+        {
+          "ko_id": 1007,
+          "ja_id": 1007,
+          "ja_printf": [
+            "%s",
+            "%s"
+          ],
+          "ko_printf": [
+            "%s"
+          ]
+        },
+        {
+          "ko_id": 1009,
+          "ja_id": 1009,
+          "ja_printf": [],
+          "ko_printf": [
+            "%s"
+          ]
+        },
+        {
+          "ko_id": 940,
+          "ja_id": 940,
+          "ja_printf": [
+            "%s"
+          ],
+          "ko_printf": []
+        },
+        {
+          "ko_id": 1676,
+          "ja_id": 1676,
+          "ja_printf": [
+            "%s"
+          ],
+          "ko_printf": [
+            "%s",
+            "%s"
+          ]
+        },
+        {
+          "ko_id": 1677,
+          "ja_id": 1677,
+          "ja_printf": [
+            "%s"
+          ],
+          "ko_printf": [
+            "%s",
+            "%s"
+          ]
+        }
+      ]
+    },
+    "helplocaldat": {
+      "total_ko_entries": 159,
+      "total_ja_entries": 159,
+      "paired_count": 159,
+      "ko_only_count": 0,
+      "ja_only_count": 0,
+      "printf_mismatch_count": 0,
+      "button_token_diff_count": 11,
+      "untranslated_or_placeholder_count": 3,
+      "english_remnant_candidates": [
+        {
+          "ko_id": -116,
+          "ja_id": -116,
+          "ja_text": "スカイボードは、 アナログパッドで ほうこうを きめ、 <BTN_CROSS>ボタン で ジャンプ。 <BTN_SQUARE>ボタンを おしつづければ ブーストモードです。 くうちゅうで ブーストを かければ、 すこしの あいだ かっくう できます。",
+          "ko_text": "아날로그 패드를 이용하여 스카이 보드 방향을 바꾸세요.  점프 할때는 <BTN_CROSS>을 누르고, 부스트 모드로 바꿀 때는 [squaresymbol]을 계속 누르세요. 비행할 수 없는 곳에서는 계속해서 부스트를 유지해야 합니다."
+        }
+      ],
+      "button_token_diffs": [
+        {
+          "ko_id": -4,
+          "ja_id": -4,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>",
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "Lボタンと Rボタンを どうじに おせば、 しゃがめます。 しゃがみ ながら <BTN_CROSS>ボタンを おせば、 ハイジャンプに なります。",
+          "ko_text": "<BTN_L>과 <BTN_R>을 동시에 눌러 웅크릴 수 있어요. 웅크린 상태에서 <BTN_CROSS>을 누르면 높은 점프를 할 수 있어요."
+        },
+        {
+          "ko_id": -6,
+          "ja_id": -6,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>",
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "はしりながら Lボタン+ Rボタンを どうじに おして、 すぐに <BTN_CROSS>ボタン を おせば、 ロングジャンプ できます。",
+          "ko_text": "달리면서 <BTN_L>과 <BTN_R>, <BTN_CROSS>을 동시에 누르면 멀리 점프할 수 있어요."
+        },
+        {
+          "ko_id": -28,
+          "ja_id": -28,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "マイクロボットを ひろう ためには、 ねらってから <BTN_CROSS>ボタン を おします。",
+          "ko_text": "가제봇을 선택하고 <BTN_CIRCLE>을 누르면 그 가제봇을 줍습니다."
+        },
+        {
+          "ko_id": -30,
+          "ja_id": -30,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS>ボタン で マイクロボットを なげます。",
+          "ko_text": "<BTN_CIRCLE>으로 가제봇을 던지세요."
+        },
+        {
+          "ko_id": -45,
+          "ja_id": -45,
+          "ja_btns": [
+            "<BTN_SQUARE>"
+          ],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>",
+            "<BTN_SQUARE>"
+          ],
+          "ja_text": "<COL:02>オムレンチ<COL:01>を てきに なげつけて みましょう。 Lボタンと Rボタンを おして しゃがみ、 <BTN_SQUARE>ボタンで なげるコトが できます。",
+          "ko_text": "라쳇은 렌치를 적들에게 던질 수 있습니다! <BTN_L> 버튼과 <BTN_R> 버튼을 눌러서 웅크리세요. 그리고 <BTN_SQUARE>을 눌러서 렌치를 던지세요."
+        },
+        {
+          "ko_id": -51,
+          "ja_id": -51,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>"
+          ],
+          "ja_text": "ふっかつを まっている あいだに、 Lボタンや Rボタンを おして、 カメラを まわして みましょう。",
+          "ko_text": "리스폰을 기다리는 동안,  <BTN_L> 혹은 <BTN_R>을 눌러서 카메라를 회전시키세요. "
+        },
+        {
+          "ko_id": -54,
+          "ja_id": -54,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>"
+          ],
+          "ja_text": "カメラを まうしろに もどしたい トキには、 Lボタンと Rボタンを どうじに おして ください。",
+          "ko_text": "<BTN_L>과  <BTN_R>을 동시에 누르면 카메라가 라쳇 뒤에서 바라보는 시점이 됩니다."
+        },
+        {
+          "ko_id": -59,
+          "ja_id": -59,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "この わくせいで、 すべての ミッションを クリア しました！ STARTボタン を おして、 「マップ / ミッション」 メニューから、 プレイできる ミッションを かくにん するコトが できます。",
+          "ko_text": "이 혜성에서 모든 미션을 완수하였습니다. 가능한 미션을 보려면, START 버튼을 누르고 메뉴에서 지도/미션을 선택한 후,  <BTN_CROSS>을 누르세요."
+        },
+        {
+          "ko_id": -116,
+          "ja_id": -116,
+          "ja_btns": [
+            "<BTN_CROSS>",
+            "<BTN_SQUARE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "スカイボードは、 アナログパッドで ほうこうを きめ、 <BTN_CROSS>ボタン で ジャンプ。 <BTN_SQUARE>ボタンを おしつづければ ブーストモードです。 くうちゅうで ブーストを かければ、 すこしの あいだ かっくう できます。",
+          "ko_text": "아날로그 패드를 이용하여 스카이 보드 방향을 바꾸세요.  점프 할때는 <BTN_CROSS>을 누르고, 부스트 모드로 바꿀 때는 [squaresymbol]을 계속 누르세요. 비행할 수 없는 곳에서는 계속해서 부스트를 유지해야 합니다."
+        },
+        {
+          "ko_id": -139,
+          "ja_id": -139,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_R>",
+            "<BTN_L>"
+          ],
+          "ja_text": "スナイパー スコープは、 Lボタンと Rボタンで ズームイン・アウトが できます。 ズームインして、 さいこう ダメージを ねらいましょう！",
+          "ko_text": "확대와 축소를 할때는  <BTN_R>과  <BTN_L>을 누르세요. 확대하면 최고 대미지를 줄 수 있습니다."
+        },
+        {
+          "ko_id": -140,
+          "ja_id": -140,
+          "ja_btns": [
+            "<BTN_SQUARE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>",
+            "<BTN_SQUARE>"
+          ],
+          "ja_text": "ジャンプ したあと、 <BTN_SQUARE>ボタンを おしつづけて、 くうちゅうを とぶコトが できます。",
+          "ko_text": " <BTN_CROSS>을 눌러 점프하고, 점프를 유지하려면 <BTN_SQUARE>을 계속 누르고 있어야 합니다. "
+        }
+      ],
+      "printf_mismatches": []
+    }
+  }
+}
