@@ -7,9 +7,10 @@
 # Build outputs & extracted dumps
 extracted/
 build/
-dist/
-dist/*.iso
-dist/*.xdelta
+dist/*
+!dist/*.xdelta
+!dist/*.bat
+!dist/*.txt
 
 # Python cache & virtualenvs
 __pycache__/
